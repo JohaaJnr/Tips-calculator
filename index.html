@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="https://kit.fontawesome.com/5bed1b48b0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/tips.css">
+    <title>Resturant Tips Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <h1>রেস্টুরেন্ট টিপস ক্যালকুলেটর </h1>
+        <div id="calculator">
+      
+      
+          <form>
+            <p>আপনার টোটাল বিল ?
+              <p>
+                Tk. <input id="billamt" type="text" placeholder="Bill Amount">
+      
+                <p>সার্ভিস কেমন ছিলো ?
+                  <p>
+                    <select id="serviceQual">
+                  <option disabled selected value="0">-- অপশন বাছাই করুন  --</option>
+                  <option value="0.3">80&#37; &#45; খুবই ভালো </option>
+                  <option value="0.2">50&#37; &#45; ভালো </option>
+                  <option value="0.15">30&#37; &#45; মোটামুটি চলে </option>
+                  <option value="0.1">10&#37; &#45; বাজে </option>
+                  <option value="0.05">5&#37; &#45; খুবই বাজে </option>
+              </select>
+      
+          </form>
+          <p>বিল আপনারা কয়জন শেয়ার করছেন ?</p>
+          <input id="peopleamt" type="text" placeholder="Number of People"> জন 
+          <button type="button" id="calculate">হিসাব করুন !</button>
+      
+        </div>
+        <!--calculator end-->
+        <div id="totalTip">
+          <sup>Tk.</sup><span id="tip">00.00</span> /পয়সা 
+          <small id="each">জন প্রতি </small>
+
+          <p><small> টোটাল টিপস: <sup>Tk.</sup><span id="totaltips"></span> /পয়সা </small></p>
+        </div>
+        <!--totalTip end-->
+      
+      </div>
+      <!--container end-->
+      
+      <script type="text/javascript" src="js/tipcalculator.js"></script>
+</body>
+</html>

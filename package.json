@@ -1,0 +1,14 @@
+{
+  "name": "tips",
+  "version": "1.0.0",
+  "description": "Tips Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johaa",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
